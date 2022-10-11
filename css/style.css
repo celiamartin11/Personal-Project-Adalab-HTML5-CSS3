@@ -5,8 +5,8 @@
 }
 
 html, body {
-    height: 100vh;
     font-family: 'Rubik', sans-serif;
+    height: 100vh;
 }
 
 body{
@@ -14,34 +14,43 @@ body{
     margin: 0;
 }
 
-header{
+.header{
     background-color: var(--white);
+    width: 100%;
     padding: 10px;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
+main {
+    height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
 
 .logo{
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .menu{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
     font-size: 16px;
     padding: 30px 0px 15px 0px;
-    margin: 0;
+    margin: 0; 
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
 }
 
 .menu-item{
-    text-decoration: none;
     color: var(--dark-grey);
     padding:10px 20px;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
@@ -49,8 +58,26 @@ header{
     color: var(--white);
     font-size: 30px;
     font-weight: bold;
+    width: 49vw;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
+}
+
+/*
+ *  
+ *    VERSION TABLET Y PC
+ *
+*/
+
+@media all and (min-width:768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lema{
+        width: 15vw;  
+    }
 }
