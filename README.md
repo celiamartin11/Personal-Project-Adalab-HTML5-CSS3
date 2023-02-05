@@ -8,4 +8,4 @@ El primer contacto que tuve con HTML5 y CSS3 es una landing page ambientada en l
 
 Una página web simple en la que había que asentar los conocimientos recién aprendidos. 
 
-Podrás encontrar mi primer header, mi primer enlace, mi primer menú y mi primer título. Acompañado de un poquito de CSS3 donde tenía que asentar la locura interna que por aquel entonces eran las flexbox para mí. 
+Podrás encontrar mi primer header, mi primer enlace, mi primer menú y mi primer título. Acompañado de un poquito de CSS3 donde tenía que asentar la locura interna que por aquel entonces eran las flexbox para mí. Además, también es responsive, para que puedas verla en diferentes dispositivos. 
