@@ -2,7 +2,7 @@
 
 ![adalabers](https://user-images.githubusercontent.com/113979188/216833214-cdac3b62-cb6d-4316-8a1a-58732f9a3386.png)
 
-## Descripción 🖥️
+## Descripción
 
 El primer contacto que tuve con HTML5 y CSS3 es una landing page ambientada en los colores de Adalab, donde realicé el Bootcamp de Programación Web.
 
